@@ -175,6 +175,12 @@ color: white;
         display: flex;
         flex-direction: column;
     }
+    .bside{
+        align-items: center;
+    }
+    .aside{
+        align-items: center;
+    }
     .final-tex{
         position: relative;
         top:5rem;
@@ -182,6 +188,9 @@ color: white;
     .final-text{
         position: relative;
         top:11rem;
+    }
+    .link{
+        padding:3rem 1rem;
     }
     
 
