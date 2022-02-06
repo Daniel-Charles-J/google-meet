@@ -6,38 +6,42 @@
 body{
     background-color:whitesmoke;
 }
-.header{
+.navbar{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    margin-top: 0.5rem;
 }
-.header-left{
-    padding: 1rem;
+
+.navbar-left{
+   display: flex;
+margin-top: 0.5rem;
+margin-left:1rem;
 }
-.logo{
-    width: 6rem;
-    height: 5rem;
+.navbar-left .logo{
+    height:2.5rem;
+    position: relative;
 }
-.header-center{
+.navbar-left p{
+    position: absolute;
+    left:9.3rem;
+    top:1.4rem;
+    font-size: 1.5rem;
+    color: #5f6368;
+}
+.navbar-right{
     display: flex;
-    justify-content: space-between;
-
+    justify-content:space-around;
+    
 }
-.header-center h4{
-    margin-left: 38rem;
-
+.navbar-right .time p{
+    margin-top: 0.9rem;
+    font-size: 1.2rem;
+    color: #5f6368;
+    
 }
-.ico{
-    padding: 6rem;
+.navbar-right .side-icons{
+    padding: 0.8rem;
 }
-.icons{
-    margin-left: 14rem;
-}
-.header-right{
-
-}
-.mypic{
-    height:1.5rem;
-    width: 1.5rem;
-    border-radius: 50%;
+.navbar-right .side-icons .icons{
+    padding:0 0.9rem;
 }
